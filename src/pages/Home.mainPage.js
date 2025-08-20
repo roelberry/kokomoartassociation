@@ -2,9 +2,10 @@
 // “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
 
 $w.onReady(function () {
-    // Write your JavaScript here
+    // Set alt text for meaningful images
+    $w('#heroImage').alt = 'Featured artwork from current exhibition';
 
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    // Decorative images should have empty alt text so screen readers ignore them
+    $w('#decorativeDivider').alt = '';
 });
+
