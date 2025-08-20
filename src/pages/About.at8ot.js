@@ -4,15 +4,9 @@ import { seo } from 'wix-seo';
 // “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
 
 $w.onReady(function () {
-    seo.setSeoTags({
-        title: 'About',
-        description: 'Explore the About page at the Kokomo Art Association.'
-    });
-
-
     // Write your JavaScript here
 
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    // Decorative flourish
+    $w('#aboutDivider').alt = '';
 });
+
