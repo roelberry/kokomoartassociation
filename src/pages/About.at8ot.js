@@ -2,9 +2,10 @@
 // “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
 
 $w.onReady(function () {
-    // Write your JavaScript here
+    // Alt text for image showing members of the association
+    $w('#aboutImage').alt = 'Kokomo Art Association members in the gallery';
 
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    // Decorative flourish
+    $w('#aboutDivider').alt = '';
 });
+
