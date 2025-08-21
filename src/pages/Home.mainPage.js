@@ -1,10 +1,11 @@
+import { seo } from 'wix-seo';
+
 // API Reference: https://www.wix.com/velo/reference/api-overview/introduction
 // “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
 import { seo } from 'wix-seo';
 
 $w.onReady(function () {
-    // Set alt text for meaningful images
-    $w('#heroImage').alt = 'Featured artwork from current exhibition';
+    // Write your JavaScript here
 
     // Decorative images should have empty alt text so screen readers ignore them
     $w('#decorativeDivider').alt = '';
