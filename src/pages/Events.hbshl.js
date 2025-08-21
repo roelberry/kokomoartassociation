@@ -2,17 +2,12 @@ import { seo } from 'wix-seo';
 
 // API Reference: https://www.wix.com/velo/reference/api-overview/introduction
 // “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+import { seo } from 'wix-seo';
 
 $w.onReady(function () {
-    seo.setSeoTags({
-        title: 'Events',
-        description: 'Explore the Events page at the Kokomo Art Association.'
-    });
 
 
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+    // Enhance SEO with page-specific metadata
+    seo.setTitle('Upcoming Art Events | Kokomo Art Association');
+    seo.setDescription('Browse art events, classes, and workshops hosted by the Kokomo Art Association.');
 });
